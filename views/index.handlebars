@@ -117,19 +117,19 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img id="sampleC" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">
+        <img id="sampleC" class="img-responsive" src="/images/TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">
       </div>
 
       <div class="item">
-        <img id="sampleC" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">
+        <img id="sampleC" class="img-responsive" src="/images/TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">
       </div>
 	 
 	 <div class="item">
-        <img id="sampleC" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">
+        <img id="sampleC" class="img-responsive" src="/images/TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">
       </div>
 	  
 	  <div class="item">
-        <img id="sampleC" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">
+        <img id="sampleC" class="img-responsive" src="/imagesTAP_Ad_300x300.jpg" alt="300300" width="300" height="300">
       </div>
     </div>
 
@@ -175,33 +175,37 @@
 
 <div id="Section1" class="container">
 	<div class="row">
-		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">Shirt 1</div>
-		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">Shirt 2</div>
-		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">Shirt 3</div>
+	{{#each projects}}
+		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="{{image}}" alt="300300" width="300" height="300">{{name}}</div>
+
+	{{/each}}		
 	</div>
 </div>
 
 <div class="container">
 	<div class="row">
-		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">Shirt 4</div>
-		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">Shirt 5</div>
-		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">Shirt 6</div>
+	{{#each projects}}
+		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="{{image}}" alt="300300" width="300" height="300">{{name}}</div>
+
+	{{/each}}
 	</div>
 </div>
 
 <div id="Section2" class="container">
 	<div class="row">
-		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">Hoodie 1</div>
-		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">Hoodie 2</div>
-		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">Hoodie 3</div>
+	{{#each projects}}
+		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="{{image}}" alt="300300" width="300" height="300">{{name}}</div>
+
+	{{/each}}
 	</div>
 </div>
 
 <div class="container">
 	<div class="row">
-		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">Hoodie 4</div>
-		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">Hoodie 5</div>
-		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="TAP_Ad_300x300.jpg" alt="300300" width="300" height="300">Hoodie 6</div>
+		{{#each projects}}
+		<div class="col-sm-4" ><img id="sample300" class="img-responsive" src="{{image}}" alt="300300" width="300" height="300">{{name}}</div>
+
+	{{/each}}
 	</div>
 </div>
 
